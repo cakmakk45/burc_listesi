@@ -34,7 +34,7 @@ class BurcListesi extends StatelessWidget {
       var burcTarih = Strings.BURC_TARIHLERI[i];
       var burcDetay = Strings.BURC_GENEL_OZELLIKLERI[i];
       var burcKucukResim =
-          Strings.BURC_ADLARI[i].toLowerCase() + ' ${i + 1}.png';
+          Strings.BURC_ADLARI[i].toLowerCase() + '${i + 1}.png';
       var burcBuyukResim =
           Strings.BURC_ADLARI[i].toLowerCase() + '_buyuk' + '${i + 1}.png';
 
